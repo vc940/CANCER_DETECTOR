@@ -1,5 +1,5 @@
 <h1>Cancer Detection</h1>
-<p> Project has capabilities of detecting cancer of various types like: Mouth Cancer, Breast Cancer, Skin Cancer</p>
+<p> Project has capabilities of detecting cancer of various types like: Mouth Cancer, Breast Cancer, Skin Cancer and work is going on to add more types of cancer.</p>
 
 <h2>How to use</h2>
 <ul>
@@ -11,8 +11,8 @@
 
 <h1> APP INSIGNTS</h1>
 <h1><img src='Screenshot 2024-06-22 174403.png'></h1>
-<img scr=''>
-<img>
+<img src='Screenshot 2024-06-22 175038.png'>
+<img src='Screenshot 2024-06-22 175052.png'>
 
 Languagues and frameworks used:
 <br>
