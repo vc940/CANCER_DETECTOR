@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Your Data || Cancer_Detection</title>
+    <!-- Link Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>    .navbar {
+        position: sticky;
+        background-color: #333;
+        overflow: hidden;
+        padding: 0;
+    }
+    
+    /* Navbar links */
+    .navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 50px;
+        text-decoration: none;
+    }
+    
+    /* On hover, add a background color to the links */
+    .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+    /* Active/current link */
+    .active {
+        background-color: #666;
+    }
+    
+    /* Responsive navigation menu */
+    .navbar .icon {
+        display: none;
+    }
+    
+    @media screen and (max-width: 600px) {
+        .navbar a:not(:first-child) {display: none;}
+        .navbar a.icon {
+            float: right;
+            display: block;
+        }
+    }
+    
+    @media screen and (max-width: 600px) {
+        .navbar.responsive {position: relative;}
+        .navbar.responsive .icon {
+            position: sticky;
+            right: 0;
+            top: 0;
+        }
+        .navbar.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+        }
+
+    }
+    .content img{
+        position: fixed;
+     
+        height: 100vh;
+        width: 100vw;
+        opacity: 20%;
+    }
+    label{
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    form{
+        position: relative;
+        z-index: 20;
+    }
+    
+   
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="navbar" id="myNavbar">
+          <a href="/" class="active">Home</a>
+          <a href="/about">About</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+          
+        </div>
+    </nav>
+    <div class="content"><img src="/static/cancer-metastasis-cancerwise.jpg" alt=""> </div>
+
+    <main class="container">
+        <!-- <div class="content"><img src="/static/cancer-metastasis-cancerwise.jpg" alt=""> </div> -->
+
+        <h2>ENTER ALL THE DETAILS BELOW</h2>
+        <p> Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image. </p>
+        <form action="/submit" method="POST">
+            <div class="row">
+                <!-- Left side -->
+                <div class="col-md-6">
+                    <!-- First half of fields -->
+                    <div class="form-group">
+        
+                        <label for="f1">radius_mean</label>
+                        <input type="number" class="form-control" id="f1" name="f1" step="any">
+                        <label for="f2">texture_mean</label>
+                        <input type="number" class="form-control" id="f2" name="f2" step="any">
+                        <label for="f3">smoothness_mean</label>
+                        <input type="number" class="form-control" id="f3" name="f3" step="any">
+                        <label for="f4">compactness_mean</label>
+                        <input type="number" class="form-control" id="f4" name="f4" step="any">
+                        <label for="f5">concave points_mean</label>
+                        <input type="number" class="form-control" id="f5" name="f5" step="any">
+                        <label for="f6">symmetry_mean</label>
+                        <input type="number" class="form-control" id="f6" name="f6" step="any">
+                        <label for="f7">fractal_dimension_mean</label>
+                        <input type="number" class="form-control" id="f7" name="f7" step="any">
+                        <label for="f17">fractal_dimension_worst</label>
+                        <input type="number" class="form-control" id="f17" name="f17" step="any">
+                        <label for="f18">symmetry_worst</label>
+                        <input type="number" class="form-control" id="f18" name="f18" step="any">
+                       
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="f8">radius_se</label>
+                        <input type="number" class="form-control" id="f8" name="f8" step="any">
+                        <label for="f9">texture_se</label>
+                        <input type="number" class="form-control" id="f9" name="f9" step="any">
+                        <label for="f10"> smoothness_se</label>
+                        <input type="number" class="form-control" id="f10" name="f10" step="any">
+                        <label for="f11">compactness_se</label>
+                        <input type="number" class="form-control" id="f11" name="f11" step="any">
+                        <label for="f12">concavity_se</label>
+                        <input type="number" class="form-control" id="f12" name="f12" step="any">
+                        <label for="f13">concave points_se</label>
+                        <input type="number" class="form-control" id="f13" name="f13" step="any">
+                        <label for="f14">symmetry_se</label>
+                        <input type="number" class="form-control" id="f14" name="f14" step="any">
+                        <label for="f15">fractal_dimension_se</label>
+                        <input type="number" class="form-control" id="f15" name="f15" step="any">
+                        <label for="f16">smoothness_worst</label>
+                        <input type="number" class="form-control" id="f16" name="f16" step="any">
+                    </div>
+                  
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
