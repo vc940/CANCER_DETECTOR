@@ -21,4 +21,4 @@ Languagues and frameworks used:
 <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="35" height="35"/> </a>
 <a><img src='https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg' height='40' width= '40'/></a>
-<a><img src='https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg' height='40' width= '40' color='white'/></a>
+<a><img src='image.png' height='40' width= '40' color='white'/></a>
