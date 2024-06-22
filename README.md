@@ -7,6 +7,12 @@
   <li> Run app.py.</li>
   <li> And a local host address will be displayed in terminal just open it and 💥 You are ready to use it .</li>
 </ul>
+<img src='https://i.sstatic.net/0xs1f.png' width='500'>
+
+<h1> APP INSIGNTS</h1>
+<img src='https://drive.google.com/file/d/1nZSdy6cEH3poMbzC43yTy1z0T1LNDLca/view?usp=sharing'>
+<img>
+<img>
 
 Languagues and frameworks used:
 <br>
