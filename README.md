@@ -10,8 +10,8 @@
 <img src='https://i.sstatic.net/0xs1f.png' width='500'>
 
 <h1> APP INSIGNTS</h1>
-<img src='https://drive.google.com/file/d/1nZSdy6cEH3poMbzC43yTy1z0T1LNDLca/view?usp=sharing'>
-<img>
+<h1><img src='Screenshot 2024-06-22 174403.png'></h1>
+<img scr=''>
 <img>
 
 Languagues and frameworks used:
