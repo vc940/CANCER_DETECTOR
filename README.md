@@ -22,3 +22,5 @@ Languagues and frameworks used:
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="35" height="35"/> </a>
 <a><img src='https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg' height='40' width= '40'/></a>
 <a><img src='image.png' height='40' width= '40' color='white'/></a>
+<img src='https://www.vectorlogo.zone/logos/numpy/numpy-icon.svg' width='40' height='40'>
+<img src='https://upload.vectorlogo.zone/logos/pydata_pandas/images/3379b038-0796-45fe-8467-3fba66c10b70.svg' width='40' height='40'>
