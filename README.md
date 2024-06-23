@@ -9,7 +9,7 @@
 </ul>
 <img src='https://i.sstatic.net/0xs1f.png' width='500'>
 
-<h1> GLIMPSE OF MY APP</h1>
+<h1> GLIMPSE OF MY WEB APP</h1>
 <h1><img src='Screenshot 2024-06-22 174403.png'></h1>
 <img src='Screenshot 2024-06-22 175038.png'>
 <img src='Screenshot 2024-06-22 175052.png'>
